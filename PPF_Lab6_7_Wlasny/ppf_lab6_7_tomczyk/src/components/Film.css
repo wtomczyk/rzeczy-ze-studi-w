@@ -1,0 +1,14 @@
+@media screen and (max-width: 800px) {
+    .iframe{
+        width: 100%;
+    }
+}
+#videobox{
+    background-color: lavender;
+    width: 100%;
+    border-radius: 20px;
+    border:2px solid grey;
+    box-sizing: border-box;
+    padding-bottom:20px;
+    padding-top:20px
+}

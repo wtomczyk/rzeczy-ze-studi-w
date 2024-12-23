@@ -1,0 +1,100 @@
+.tabela1 {
+	border: 1px solid;
+}
+.tabela1 td {
+	border: 1px solid;
+}
+
+.tabela1 th {
+	background-color: #09a2cd;
+}
+
+.siatkaUlu {
+	float: left; 
+	width: 100%;
+}
+
+.siatkaKontakt {
+	float:left;
+	width: 50%;
+	height: 150px;
+	display: block-inline;
+}
+
+.siatkaKontakt img {
+	width: 100px;
+	border: dotted 2px blue;
+}
+
+.siatkaNazwa {	
+	font-weight: bold;
+	font-size: 20px;
+	color: #0066ff;
+}
+
+.tabela2 {
+	text-align: center;
+}
+
+.tabela2 th {
+	background-color: #09a2cd;
+	font-weight: bold;
+	width: 200px;
+}
+
+.tabela2 th:first-child {
+	width: 50px;
+}
+
+.tabela2 img {
+	width: 50px;
+}
+
+.profil {
+	border: solid 3px green;
+	padding: 20px;
+	width: 280px;
+	text-align: center;
+	margin: 10px;
+}
+
+.profilZdjecie img {
+	width: 200px;
+}
+
+.profilNazwa {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.profilPodpis {
+	color: gray;
+	font-size: 18px;
+}
+
+.profilInfo {
+	text-align: left;
+	margin-left: 20px;
+}
+
+.profilGrupy {
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.profilGrupy div {
+	background-color: #ccffcc;
+	border: 1px solid #009933;
+	margin-right: 10px;
+	display: inline;
+	padding: 5px;
+}
+
+.profilInfo p {
+	color: gray;
+}
+
+.profilNawigacja {
+	padding-top: 30px;
+}

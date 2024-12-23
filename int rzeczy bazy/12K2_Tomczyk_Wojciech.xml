@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="12K2_Tomczyk_Wojciech.xsl"?>
+
+<państwa>
+	<państwo id="1">
+		<nazwa>Polska</nazwa>
+		<język>Polski</język>
+		<waluta>Złoty</waluta>
+		<kontynent>Europa</kontynent>
+		<sąsiedzi>
+			<sąsiad><nazwa>Niemcy</nazwa></sąsiad>
+			<sąsiad><nazwa>Rosja</nazwa></sąsiad>
+			<sąsiad><nazwa>Ukraina</nazwa></sąsiad>
+			<sąsiad><nazwa>Białoruś</nazwa></sąsiad>
+			<sąsiad><nazwa>Czechy</nazwa></sąsiad>
+			<sąsiad><nazwa>Słowacja</nazwa></sąsiad>
+			<sąsiad><nazwa>Litwa</nazwa></sąsiad>
+		</sąsiedzi>
+		<flaga><img src="./img/pl.jpg" alt="" ></img></flaga>
+	</państwo>
+	<państwo id="2">
+		<nazwa>Niemcy</nazwa>
+		<język>Niemiecki</język>
+		<waluta>Euro</waluta>
+		<kontynent>Europa</kontynent>
+		<sąsiedzi>
+			<sąsiad><nazwa>Dania</nazwa></sąsiad>
+			<sąsiad><nazwa>Polska</nazwa></sąsiad>
+			<sąsiad><nazwa>Czechy</nazwa></sąsiad>
+			<sąsiad><nazwa>Austria</nazwa></sąsiad>
+			<sąsiad><nazwa>Szwajcaria</nazwa></sąsiad>
+			<sąsiad><nazwa>Francja</nazwa></sąsiad>
+			<sąsiad><nazwa>Luksemburg</nazwa></sąsiad>
+			<sąsiad><nazwa>Belgia</nazwa></sąsiad>
+			<sąsiad><nazwa>Holandia</nazwa></sąsiad>
+		</sąsiedzi>
+		<flaga><img src="./img/ge.jpg" alt="" ></img></flaga>
+	</państwo>
+	<państwo id="3">
+		<nazwa>Litwa</nazwa>
+		<język>Litewski</język>
+		<waluta>Euro</waluta>
+		<kontynent>Europa</kontynent>
+		<sąsiedzi>
+			<sąsiad><nazwa>Łotwa</nazwa></sąsiad>
+			<sąsiad><nazwa>Białoruś</nazwa></sąsiad>
+			<sąsiad><nazwa>Polska</nazwa></sąsiad>
+			<sąsiad><nazwa>Rosja</nazwa></sąsiad>
+		</sąsiedzi>
+		<flaga><img src="./img/li.jpg" alt="" ></img></flaga>
+	</państwo>
+	<państwo id="4">
+		<nazwa>Chile</nazwa>
+		<język>Hiszpański</język>
+		<waluta>Peso chilijskie</waluta>
+		<kontynent>Ameryka Południowa</kontynent>
+		<sąsiedzi>
+			<sąsiad><nazwa>Peru</nazwa></sąsiad>
+			<sąsiad><nazwa>Boliwia</nazwa></sąsiad>
+			<sąsiad><nazwa>Argentyna</nazwa></sąsiad>
+		</sąsiedzi>
+		<flaga><img src="./img/ch.jpg" alt="" ></img></flaga>
+	</państwo>
+	<państwo id="5">
+		<nazwa>Mongolia</nazwa>
+		<język>Mongolski</język>
+		<waluta>Tugrik</waluta>
+		<kontynent>Azja</kontynent>
+		<sąsiedzi>
+			<sąsiad><nazwa>Rosja</nazwa></sąsiad>
+			<sąsiad><nazwa>Chiny</nazwa></sąsiad>
+		</sąsiedzi>
+		<flaga><img src="./img/mo.jpg" alt="" ></img></flaga>
+	</państwo>
+	<państwo id="6">
+		<nazwa>Egipt</nazwa>
+		<język>Współczesny standardowy język arabski</język>
+		<waluta>Funt egipski</waluta>
+		<kontynent>Afryka</kontynent>
+		<sąsiedzi>
+			<sąsiad><nazwa>Izrael</nazwa></sąsiad>
+			<sąsiad><nazwa>Palestyna</nazwa></sąsiad>
+			<sąsiad><nazwa>Sudan</nazwa></sąsiad>
+			<sąsiad><nazwa>Libia</nazwa></sąsiad>
+		</sąsiedzi>
+		<flaga><img src="./img/eg.jpg" alt="" ></img></flaga>
+	</państwo>
+	<państwo id="7">
+		<nazwa>Meksyk</nazwa>
+		<język>Hiszpański</język>
+		<waluta>Peso meksykańskie</waluta>
+		<kontynent>Ameryka Północna</kontynent>
+		<sąsiedzi>
+			<sąsiad><nazwa>Stany Zjednoczone</nazwa></sąsiad>
+			<sąsiad><nazwa>Gwatamela</nazwa></sąsiad>
+			<sąsiad><nazwa>Belize</nazwa></sąsiad>
+		</sąsiedzi>
+		<flaga><img src="./img/me.jpg" alt="" ></img></flaga>
+	</państwo>
+	<państwo id="8">
+		<nazwa>Szwecja</nazwa>
+		<język>Szwedzki</język>
+		<waluta>Korona szwedzka</waluta>
+		<kontynent>Europa</kontynent>
+		<sąsiedzi>
+			<sąsiad><nazwa>Finlandia</nazwa></sąsiad>
+			<sąsiad><nazwa>Norwegia</nazwa></sąsiad>
+			<sąsiad><nazwa>Dania</nazwa></sąsiad>
+		</sąsiedzi>
+		<flaga><img src="./img/sz.jpg" alt="" ></img></flaga>
+	</państwo>
+	<państwo id="9">
+		<nazwa>Portugialia</nazwa>
+		<język>Portugaliski</język>
+		<waluta>Euro</waluta>
+		<kontynent>Europa</kontynent>
+		<sąsiedzi>
+			<sąsiad><nazwa>Hiszpania</nazwa></sąsiad>
+		</sąsiedzi>
+		<flaga><img src="./img/po.jpg" alt="" ></img></flaga>
+	</państwo>
+	<państwo id="10">
+		<nazwa>Albania</nazwa>
+		<język>Albański</język>
+		<waluta>Lek</waluta>
+		<kontynent>Europa</kontynent>
+		<sąsiedzi>
+			<sąsiad><nazwa>Macedonia</nazwa></sąsiad>
+			<sąsiad><nazwa>Grecja</nazwa></sąsiad>
+			<sąsiad><nazwa>Czarnogóra</nazwa></sąsiad>
+			<sąsiad><nazwa>Serbia</nazwa></sąsiad>
+			<sąsiad><nazwa>Kosowo</nazwa></sąsiad>
+		</sąsiedzi>
+		<flaga><img src="./img/al.jpg" alt="" ></img></flaga>
+	</państwo>
+</państwa>

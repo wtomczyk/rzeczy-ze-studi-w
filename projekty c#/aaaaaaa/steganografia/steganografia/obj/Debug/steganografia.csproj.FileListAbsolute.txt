@@ -1,0 +1,10 @@
+D:\Desktop\steganografia\steganografia\bin\Debug\steganografia.exe.config
+D:\Desktop\steganografia\steganografia\bin\Debug\steganografia.exe
+D:\Desktop\steganografia\steganografia\bin\Debug\steganografia.pdb
+D:\Desktop\steganografia\steganografia\obj\Debug\steganografia.csproj.AssemblyReference.cache
+D:\Desktop\steganografia\steganografia\obj\Debug\steganografia.Form1.resources
+D:\Desktop\steganografia\steganografia\obj\Debug\steganografia.Properties.Resources.resources
+D:\Desktop\steganografia\steganografia\obj\Debug\steganografia.csproj.GenerateResource.cache
+D:\Desktop\steganografia\steganografia\obj\Debug\steganografia.csproj.CoreCompileInputs.cache
+D:\Desktop\steganografia\steganografia\obj\Debug\steganografia.exe
+D:\Desktop\steganografia\steganografia\obj\Debug\steganografia.pdb

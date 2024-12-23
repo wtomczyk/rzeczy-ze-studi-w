@@ -1,0 +1,10 @@
+D:\Desktop\waves\waves\bin\Debug\waves.exe.config
+D:\Desktop\waves\waves\bin\Debug\waves.exe
+D:\Desktop\waves\waves\bin\Debug\waves.pdb
+D:\Desktop\waves\waves\obj\Debug\waves.csproj.AssemblyReference.cache
+D:\Desktop\waves\waves\obj\Debug\waves.Form1.resources
+D:\Desktop\waves\waves\obj\Debug\waves.Properties.Resources.resources
+D:\Desktop\waves\waves\obj\Debug\waves.csproj.GenerateResource.cache
+D:\Desktop\waves\waves\obj\Debug\waves.csproj.CoreCompileInputs.cache
+D:\Desktop\waves\waves\obj\Debug\waves.exe
+D:\Desktop\waves\waves\obj\Debug\waves.pdb

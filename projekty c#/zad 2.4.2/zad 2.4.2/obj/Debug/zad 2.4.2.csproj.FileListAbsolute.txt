@@ -1,0 +1,10 @@
+D:\Desktop\zad 2.4.2\zad 2.4.2\bin\Debug\zad 2.4.2.exe.config
+D:\Desktop\zad 2.4.2\zad 2.4.2\bin\Debug\zad 2.4.2.exe
+D:\Desktop\zad 2.4.2\zad 2.4.2\bin\Debug\zad 2.4.2.pdb
+D:\Desktop\zad 2.4.2\zad 2.4.2\obj\Debug\zad 2.4.2.csproj.AssemblyReference.cache
+D:\Desktop\zad 2.4.2\zad 2.4.2\obj\Debug\zad_2._4._2.Form1.resources
+D:\Desktop\zad 2.4.2\zad 2.4.2\obj\Debug\zad_2._4._2.Properties.Resources.resources
+D:\Desktop\zad 2.4.2\zad 2.4.2\obj\Debug\zad 2.4.2.csproj.GenerateResource.cache
+D:\Desktop\zad 2.4.2\zad 2.4.2\obj\Debug\zad 2.4.2.csproj.CoreCompileInputs.cache
+D:\Desktop\zad 2.4.2\zad 2.4.2\obj\Debug\zad 2.4.2.exe
+D:\Desktop\zad 2.4.2\zad 2.4.2\obj\Debug\zad 2.4.2.pdb

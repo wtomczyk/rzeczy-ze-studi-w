@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/date.css">
+    <script src="js/date.js"></script>
+    <title>PolMed</title>
+</head>
+<body>
+    <div class="date_body">
+        <div class="header">
+            <div class="polmed">
+                <img src="lib/polmed.png">
+            </div>
+            <div class="icon">
+                <img src="lib/icon.png">
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav_obj">
+                <h3>Strona Główna</h3>
+            </div>
+            <div class="nav_obj">
+                <h3>Kontakt</h3>
+            </div>
+            <div class="nav_obj">
+                <h3>Aktualności</h3>
+            </div>
+            <div class="nav_obj">
+                <h3>Członkowie</h3>
+            </div>
+            <div class="nav_obj">
+                <h3>Centrum prasowe</h3>
+            </div>
+            <div class="nav_obj">
+                <h3>Nasze szkolenia</h3>
+            </div>
+        </div>
+        <div class="medic">
+            <img src="" class="photo">
+            <div class="medic_info">
+                <p id="profesja"></p>
+                <p id="imie"></p>
+                <p>dostepny/na w tym tygodniu</p>
+            </div>
+        </div>
+        <div class="calendar">
+            <div class="calendar_box">
+                <div class="date">
+                    <div class="left_triangle"></div><div class="chosen_date"> <h3 class="date_info">Czerwiec 21-25 2021</h3></div><div class="right_triangle"></div>
+                </div>
+                <div class="available_dates">
+                    <div class="days">
+                        <p></p><p>Pon</p><p>Wt</p><p>Śr</p><p>Czw</p><p>Pt</p>
+                    </div>
+                    <div class="niemampomyslunanazwe">
+                        <div class="hours">
+                            <p>10.00</p><p>11.00</p><p>12.00</p><p>13.00</p><p>14.00</p><p>15.00</p><p>16.00</p><p>17.00</p><p>18.00</p>
+                        </div>
+                        <div class="available_dates_box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="termin">
+            <div class="termin_box">
+                <div class="termin_box_text"><h3>Wybierz wolny termin</h3></div><div class="termin_date"><select name="daty" id="selekt"><option value="">--Proszę wybrać datę--</option></select></div>
+            </div>
+        </div>
+        <div class="powod">
+            <div class="powod_element"><input type="radio" id="wk" name="aaa" value="Wizyta kontrolna" checked onclick="funkcja(this)"><label for="wk">Wizyta kontrolna</label><h2 class="cena">20zł</h2></div>
+            <div class="powod_element"><input type="radio" id="k" name="aaa" value="Konsultacja" onclick="funkcja(this)"><label for="k">Konsultacja</label><h2 class="cena">40zł</h2></div>
+            <div class="powod_element"><input type="radio" id="ch" name="aaa" value="Choroba" onclick="funkcja(this)"><label for="ch">Choroba</label><h2 class="cena">100 - 300zł</h2></div>
+            <div class="powod_element"><input type="radio" id="w" name="aaa" value="Wypisanie recepty" onclick="funkcja(this)"><label for="w">Wypisanie recepty</label><h2 class="cena">45zł</h2></div>
+            <div class="powod_element"><input type="radio" id="sz" name="aaa" value="Szczepienie" onclick="funkcja(this)"><label for="sz">Szczepienie</label><h2 class="cena">140zł</h2></div>
+        </div>
+        <div class="confirm">
+            <div class="rezerwacja">
+                <h1>Zarezerwuj wizytę</h1>
+            </div>
+        </div>
+        <div id="notchosen">
+            *Proszę wybrać poprawną datę
+        </div>
+    </div>
+</body>
+</html>

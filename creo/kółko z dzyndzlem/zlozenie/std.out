@@ -1,0 +1,6 @@
+ERROR - D:\creo\Creo 7.0.1.0\Common Files\text\config.pro, linenum 1 :  Keyword 'DRAWING_SETUP_FILE' is not valid.
+ERROR - D:\creo\Creo 7.0.1.0\Common Files\text\config.pro, linenum 2 :  Keyword 'FORMAT_SETUP_FILE' is not valid.
+ERROR - D:\creo\Creo 7.0.1.0\Common Files\text\config.pro, linenum 11:  Keyword 'TODAYS_DATE_NOTE_FORMAT' is not valid.
+ERROR - D:\creo\Creo 7.0.1.0\Common Files\text\config.pro, linenum 13:  Keyword 'WELD_UI_STANDARD' is not valid.
+Connection restored with License Server(s)  1
+Connection restored with License Server(s)  2

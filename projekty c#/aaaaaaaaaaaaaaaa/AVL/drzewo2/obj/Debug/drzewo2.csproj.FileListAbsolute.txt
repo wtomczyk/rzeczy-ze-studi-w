@@ -1,0 +1,10 @@
+D:\Desktop\drzewo2\drzewo2\obj\Debug\drzewo2.csproj.AssemblyReference.cache
+D:\Desktop\drzewo2\drzewo2\obj\Debug\drzewo2.Properties.Resources.resources
+D:\Desktop\drzewo2\drzewo2\obj\Debug\drzewo2.csproj.GenerateResource.cache
+D:\Desktop\drzewo2\drzewo2\obj\Debug\drzewo2.csproj.CoreCompileInputs.cache
+D:\Desktop\drzewo2\drzewo2\bin\Debug\drzewo2.exe.config
+D:\Desktop\drzewo2\drzewo2\bin\Debug\drzewo2.exe
+D:\Desktop\drzewo2\drzewo2\bin\Debug\drzewo2.pdb
+D:\Desktop\drzewo2\drzewo2\obj\Debug\drzewo2.Form1.resources
+D:\Desktop\drzewo2\drzewo2\obj\Debug\drzewo2.exe
+D:\Desktop\drzewo2\drzewo2\obj\Debug\drzewo2.pdb

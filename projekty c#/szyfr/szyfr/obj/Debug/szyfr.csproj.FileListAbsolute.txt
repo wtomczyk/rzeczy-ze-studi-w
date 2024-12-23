@@ -1,0 +1,10 @@
+D:\Desktop\szyfr\szyfr\bin\Debug\szyfr.exe.config
+D:\Desktop\szyfr\szyfr\bin\Debug\szyfr.exe
+D:\Desktop\szyfr\szyfr\bin\Debug\szyfr.pdb
+D:\Desktop\szyfr\szyfr\obj\Debug\szyfr.csproj.AssemblyReference.cache
+D:\Desktop\szyfr\szyfr\obj\Debug\szyfr.Form1.resources
+D:\Desktop\szyfr\szyfr\obj\Debug\szyfr.Properties.Resources.resources
+D:\Desktop\szyfr\szyfr\obj\Debug\szyfr.csproj.GenerateResource.cache
+D:\Desktop\szyfr\szyfr\obj\Debug\szyfr.csproj.CoreCompileInputs.cache
+D:\Desktop\szyfr\szyfr\obj\Debug\szyfr.exe
+D:\Desktop\szyfr\szyfr\obj\Debug\szyfr.pdb

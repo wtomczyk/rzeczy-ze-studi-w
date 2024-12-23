@@ -1,0 +1,5 @@
+1. Ścieżkę do pliku z bazą trzeba określić w path (linijka 10)
+2. W konsoli powinny być informacje do zadań 1-5, w prezentacji slajd 6
+3. Do drugiego zadania z trendami ekologicznymi to trzeba coś tam wody polać itd. to zostawiam wam
+4. Starałem sie pisać kod w miare czytelny, z góry przepraszam
+5. Jak jakieś pytania odnośnie co tam sie dzieje to pisać

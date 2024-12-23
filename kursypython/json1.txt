@@ -1,0 +1,16 @@
+import urllib.request, urllib.parse,json
+
+jsonFile = input("Insert file:")
+if(len(jsonFile)<1):
+    jsonFile = "http://py4e-data.dr-chuck.net/comments_2115045.json"
+uh = urllib.request.urlopen(jsonFile)
+data = uh.read().decode()
+
+info = json.loads(data)
+
+count = 0
+
+for item in info["comments"]:
+    count += item["count"]
+
+print(count)

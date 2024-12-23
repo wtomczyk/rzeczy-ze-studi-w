@@ -1,0 +1,35 @@
+.div{
+    background-color: lavender;
+    width: 100%;
+    border-radius: 20px;
+    border:2px solid grey;
+    box-sizing: border-box;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+video{
+    width: 400px;
+}
+#box2{
+    width:400px;
+    margin:0 auto;
+}
+h2{
+    clear:both;
+    margin:10px
+}
+.droptarget {
+    float: left; 
+    width: 128px; 
+    height: 70px;
+    margin:25px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#ostatniechyba{
+    margin-bottom: 40px;
+}

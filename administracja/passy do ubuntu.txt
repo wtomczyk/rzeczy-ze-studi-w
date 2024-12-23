@@ -1,0 +1,5 @@
+user
+haslo
+
+admin1 i admin2
+haslo

@@ -1,0 +1,27 @@
+use projektTomczyk;
+
+select pasazer.imie, pasazer.nazwisko,pasazer.pesel,pasazer.telefon,pasazer.email, adres.panstwo, adres.wojewodztwo, adres.miejscowosc, adres.ulica, adres.numerDomu, adres.numerMieszkania
+from pasazer
+inner join adres on pasazer.idAdresu = adres.id;
+
+use projektTomczyk;
+
+select samolot.nazwa, samolot.typ, samolot.producent,  lot.celLotu, lot.dataLotu
+from lot
+inner join samolot on lot.idSamolotu = samolot.id;
+
+use projektTomczyk;
+
+select pasazer.imie, pasazer.nazwisko,pasazer.pesel,pasazer.telefon,pasazer.email,
+adres.panstwo, adres.wojewodztwo, adres.miejscowosc, adres.ulica, adres.numerDomu, adres.numerMieszkania,
+samolot.nazwa, samolot.typ, samolot.producent,
+lot.celLotu, lot.dataLotu,
+dodatkoweInformacje.numerSiedzenia, dodatkoweInformacje.wagaBagazu, dodatkoweInformacje.statusRezerwacji, dodatkoweInformacje.cena
+
+from rezerwacja
+
+inner join pasazer on rezerwacja.idPasazera = pasazer.id
+inner join adres on pasazer.idAdresu = adres.id
+inner join dodatkoweInformacje on rezerwacja.idInformacji = dodatkoweInformacje.id
+inner join lot on rezerwacja.idLotu = lot.id
+inner join samolot on lot.idSamolotu = samolot.id;

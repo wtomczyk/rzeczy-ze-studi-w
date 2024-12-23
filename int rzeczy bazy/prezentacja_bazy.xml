@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prezentacja_bazy.xsl"?>
+
+<moje_kontakty>
+	<kontakt id="1" ulubione="tak">
+		<imię>Jan</imię>
+		<nazwisko>Kowalski</nazwisko>
+		<telefon>+48111111111</telefon>
+		<adres>
+			<ulica>al. Jana Pawła II 37</ulica>
+			<miasto>Kraków</miasto>
+		</adres>
+		<zdjęcie><img src="./profilowe/m1.jpg" alt="" ></img></zdjęcie>
+	</kontakt>
+	<kontakt id="2" ulubione="tak">
+		<imię>Olgierd</imię>
+		<nazwisko>Jasiński</nazwisko>
+		<telefon>+48111111112</telefon>
+		<email>olgierd.jasinski@pk.edu.pl</email>
+		<zdjęcie><img src="./profilowe/m2.jpg" alt="" ></img></zdjęcie>
+	</kontakt>
+	<kontakt id="3">
+		<imię>Miłosz</imię>
+		<nazwisko>Malinowski</nazwisko>
+		<telefon>+48111111113</telefon>
+		<adres>
+			<ulica>ul. Piekarska 5</ulica>
+			<miasto>Ostrołęka</miasto>
+		</adres>
+		<email>m.malinowski@pk.edu.pl</email>
+		<grupy>
+			<grupa>Rodzina</grupa>
+			<grupa>Gry planszowe</grupa>
+		</grupy>
+		<zdjęcie><img src="./profilowe/m3.jpg" alt="" ></img></zdjęcie>
+	</kontakt>
+	<kontakt id="4">
+		<imię>Remigiusz</imię>
+		<nazwisko>Michalak</nazwisko>
+		<telefon>+48111111114</telefon>
+		<zdjęcie><img src="./profilowe/m4.jpg" alt="" ></img></zdjęcie>
+		<grupy>
+			<grupa>Zespół projektowy</grupa>
+			<grupa>Gry planszowe</grupa>
+		</grupy>
+	</kontakt>
+	<kontakt id="5" ulubione="tak">
+		<imię>Liliana</imię>
+		<nazwisko>Włodarczyk</nazwisko>
+		<email>lilia.wlodarczyk@pk.edu.pl</email>
+		<adres>
+			<miasto>Wrocław</miasto>
+		</adres>
+		<grupy>
+			<grupa>Rodzina</grupa>
+		</grupy>
+		<zdjęcie><img src="./profilowe/k1.jpg" alt="" ></img></zdjęcie>
+	</kontakt>
+	<kontakt id="6">
+		<imię>Julia</imię>
+		<nazwisko>Wróblewska</nazwisko>
+		<telefon>+48111111116</telefon>
+		<email>wróbelek@pk.edu.pl</email>
+		<adres>
+			<ulica>ul. Warszawska 24</ulica>
+			<miasto>Kraków</miasto>
+		</adres>
+		<grupy>
+			<grupa>Zespół projektowy</grupa>
+		</grupy>
+		<zdjęcie><img src="./profilowe/k2.jpg" alt="" ></img></zdjęcie>
+	</kontakt>
+	<kontakt id="7">
+		<imię>Oktawia</imię>
+		<nazwisko>Szymańska</nazwisko>
+		<telefon>+48111111117</telefon>
+		<adres>
+			<ulica>al.Niepodległości 162</ulica>
+			<miasto>Warszawa</miasto>
+		</adres>
+		<grupy>
+			<grupa>Zespół projektowy</grupa>
+		</grupy>
+		<zdjęcie><img src="./profilowe/k3.jpg" alt="" ></img></zdjęcie>
+	</kontakt>
+	<kontakt id="8" ulubione="tak">
+		<imię>Izabela</imię>
+		<nazwisko>Sawicka</nazwisko>
+		<telefon>+48111111118</telefon>
+		<email>is@pk.edu.pl</email>
+		<grupy>
+			<grupa>Gry planszowe</grupa>
+		</grupy>
+		<zdjęcie><img src="./profilowe/k4.jpg" alt="" ></img></zdjęcie>
+	</kontakt>
+</moje_kontakty>

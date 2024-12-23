@@ -1,0 +1,10 @@
+D:\Desktop\zad1.5\zad1.5\bin\Debug\zad1.5.exe.config
+D:\Desktop\zad1.5\zad1.5\bin\Debug\zad1.5.exe
+D:\Desktop\zad1.5\zad1.5\bin\Debug\zad1.5.pdb
+D:\Desktop\zad1.5\zad1.5\obj\Debug\zad1.5.csproj.AssemblyReference.cache
+D:\Desktop\zad1.5\zad1.5\obj\Debug\zad1._5.Form1.resources
+D:\Desktop\zad1.5\zad1.5\obj\Debug\zad1._5.Properties.Resources.resources
+D:\Desktop\zad1.5\zad1.5\obj\Debug\zad1.5.csproj.GenerateResource.cache
+D:\Desktop\zad1.5\zad1.5\obj\Debug\zad1.5.csproj.CoreCompileInputs.cache
+D:\Desktop\zad1.5\zad1.5\obj\Debug\zad1.5.exe
+D:\Desktop\zad1.5\zad1.5\obj\Debug\zad1.5.pdb

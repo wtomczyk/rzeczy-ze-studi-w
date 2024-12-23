@@ -1,0 +1,20 @@
+#div{
+    background-color: lavender;
+    width: 100%;
+    border-radius: 20px;
+    border:2px solid grey;
+    box-sizing: border-box;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+#input{
+    width: 400px;
+    height:60px;
+    font-size: 50px;
+}
+#box{
+    margin-top: 20px;
+}
+h2{
+    margin:10px
+}

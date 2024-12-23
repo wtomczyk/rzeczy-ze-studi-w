@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: rgb(169,228,225);
+}
+.index_body{
+    display:grid;
+    grid-template-columns: 2fr 2fr 6fr;
+    grid-template-rows: repeat(11,auto);
+}
+.header{
+    margin:0 auto;
+    grid-row:1/2;
+    grid-column:1/4;
+    width: 960px;
+}
+.icon{
+    float: right;
+}
+.polmed{
+    float: left;
+}
+.icon *{
+    width:90px;
+}
+.polmed *{
+    height:90px;
+}
+.nav{
+    grid-row:2/3;
+    grid-column:1/4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+.date{
+    grid-row:3/4;
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.pediatrzy{
+    grid-row:4/5;
+    grid-column:1/4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 30px;
+}
+.lekarze_rodzinni{
+    grid-row:5/6;
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 30px;
+}
+.wybor_daty{
+    height:50px;
+    background-color: red;
+}
+.nav_obj{
+    padding:15px;
+    background-color: rgb(56, 169, 175);
+    margin:3px;
+    border-radius: 5px;
+}
+.chosen_date{
+    background-color: rgb(56, 169, 175);
+    letter-spacing: 2px;
+    margin:10px;
+    width:600px;
+    text-align: center;
+    border-radius: 10px;
+}
+.left_triangle{
+    width: 0;
+    height: 0;
+    border-top: 29px solid transparent;
+    border-right: 40px solid rgb(56, 169, 175);
+    border-bottom: 29px solid transparent;
+    box-shadow: 0 0 15px rgba(0,0,0,0.75);
+    clip-path: inset(0px -7px 0px 0px);
+}
+.right_triangle{
+    width: 0;
+    height: 0;
+    border-top: 29px solid transparent;
+    border-left: 40px solid rgb(56, 169, 175);
+    border-bottom: 29px solid transparent;
+    box-shadow: 0 0 15px rgba(0,0,0,0.75);
+    clip-path: inset(0px 0px 0px -7px);
+}
+.down_triangle{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 25px solid rgb(63, 187, 194);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.panel{
+    width:900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+.panel2{
+    width:800px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.medic{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.photo{
+    height: 200px;
+    width:200px;
+    margin-top: 1px;
+    border-radius: 10px 0px 0px 10px;
+}
+.medic_info{
+    height:200px;
+    background-color: rgb(126, 178, 180);
+    width:500px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1px;
+    border-radius: 0px 10px 10px 0px;
+}
+.medic_button{
+    background-color: rgb(56, 169, 175);
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.medic_info p{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+#a2{
+    background-color: lightgrey;
+    color: rgb(148, 148, 148);
+}
+#a0:hover,#a1:hover,#a3:hover,.nav_obj:hover,.chosen_date:hover{
+    background-color: rgb(109, 195, 221);
+    color: rgb(85, 85, 85);
+}
+.nav_obj,.medic_button,.chosen_date{
+    box-shadow: 1px 1px 5px  black;
+}
+.left_triangle:hover{
+    border-right: 40px solid rgb(109, 195, 221);
+}
+.right_triangle:hover{
+    border-left: 40px solid rgb(109, 195, 221);
+}
+.down_triangle:hover{
+    border-top: 25px solid rgb(109, 195, 221);
+}
+.nav_obj,.left_triangle,.right_triangle,.down_triangle,.chosen_date,.medic_button{
+    cursor: pointer;
+}
+#a2{
+    cursor: not-allowed;
+}
+@media screen and (max-width:1060px) {
+    .header{
+        align-items: none;
+    }
+    .icon *{
+        margin-left:0;
+        padding-bottom: 5px;
+        float:right;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .nav_obj{
+        width: 100%;
+        text-align: center;
+        padding:0px;
+        font-size:12px;
+        margin:2px
+    }
+}
+@media screen and (max-width:980px){
+    .header{
+        width:100%;
+    }
+}
+@media screen and (max-width:960px) {
+    .panel{
+        width: 100%;
+    }
+    .panel2{
+        width:100%;
+    }
+}
+@media screen and (max-width:780px) {
+    .photo{
+        margin: 0 auto;
+        padding:20px;
+        padding-bottom: 10px;
+        background-color: rgb(126, 178, 180);
+        margin-top: 1px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .medic_info{
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 10px;
+    }
+    .panel2{
+        padding-right: 40px;
+    }
+    .chosen_date{
+        width:75%
+    }
+}
+@media screen and (max-width:550px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon{
+        float: none;
+    }
+    .polmed{
+        float: none;
+    }
+}
